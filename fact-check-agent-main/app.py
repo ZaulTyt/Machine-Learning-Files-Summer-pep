@@ -173,10 +173,10 @@ for key, default in [
         st.session_state[key] = default
 
 # ── API Key (backend only) ───────────────────────────────────────────────────
-env_key = os.environ.get("OPENROUTER_API_KEY", "sk-or-v1-e1e...02d")
+env_key = os.environ.get("OPENROUTER_API_KEY", "")
 secrets_key = ""
 try:
-    secrets_key = st.secrets.get("OPENROUTER_API_KEY", "https://api.groq.com/openai/v1/chat/completions")
+    secrets_key = st.secrets.get("OPENROUTER_API_KEY", "sk-or-v1-e1e...02d")
 except Exception:
     pass
 
