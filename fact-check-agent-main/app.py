@@ -205,7 +205,28 @@ with st.sidebar:
         "meta-llama/llama-4-scout-17b-16e-instruct",
     ]
     openrouter_models = [
-        "google/gemini-3.5-flash:free"
+    "inclusionai/ling-3.0-flash-vl:free",
+    "inclusionai/ling-3.0-flash-sante:free",
+    "inclusionai/ling-3.0-flash-fin:free",
+    "nex-agi/nex-n2.5-mini:free",
+    "nex-agi/nex-n2.5-pro:free",
+    "dots-studio/dots-3-note-preview:free",
+    "liquid/lfm-2.5-2.6b:free",
+    "nvidia/nemotron-3.5-lightning:free",
+    "nvidia/nemotron-3.5-content-safety:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "nvidia/nemotron-3-super-120b-a12b:free",
+    "thinkingmachines/inkling-small:free",
+    "thinkingmachines/inkling:free",
+    "poolside/laguna-s-2.1:free",
+    "poolside/laguna-xs-2.1:free",
+    "cohere/north-mini-code:free",
+    "google/gemma-4-26b-a4b-it:free",
+    "google/gemma-4-31b-it:free",
+    "google/lyria-3-pro-preview:free",
+    "google/lyria-3-clip-preview:free",
+    "openrouter/free"
         
     ]
 
