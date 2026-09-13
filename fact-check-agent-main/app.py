@@ -176,7 +176,7 @@ for key, default in [
 env_key = os.environ.get("OPENROUTER_API_KEY", "")
 secrets_key = ""
 try:
-    secrets_key = st.secrets.get("OPENROUTER_API_KEY", "")
+    secrets_key = st.secrets.get("OPENROUTER_API_KEY", "https://api.groq.com/openai/v1/chat/completions")
 except Exception:
     pass
 
