@@ -205,11 +205,8 @@ with st.sidebar:
         "meta-llama/llama-4-scout-17b-16e-instruct",
     ]
     openrouter_models = [
-        "meta-llama/llama-3.3-70b-instruct:free",
-        "qwen/qwen-2.5-coder-32b-instruct:free",
-        "google/gemini-2.0-flash-exp:free",
-        "qwen/qwen3-235b-a22b:free",
-        "deepseek/deepseek-r1:free",
+        nvidia/nemotron-3.5-lightning:free
+        
     ]
 
     if is_groq_key:
