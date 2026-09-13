@@ -2,7 +2,7 @@
 
 An AI-powered truth verification tool that extracts factual claims from PDF documents and verifies each one against live web evidence.
 
-**⚡ Live Demo:** [fact-ch-xbjxwzqyidpiympehdobps.streamlit.app]([https://fact-ch-xbjxwzqyidpiympehdobps.streamlit.app/](https://machine-learning-files-summer-pep-nzxgclqzfq2vmlca8e98cc.streamlit.app/))
+**⚡ Live Demo:** https://machine-learning-files-summer-pep-nzxgclqzfq2vmlca8e98cc.streamlit.app/
 
 ## ✨ Features
 
