@@ -205,7 +205,7 @@ with st.sidebar:
         "meta-llama/llama-4-scout-17b-16e-instruct",
     ]
     openrouter_models = [
-        "nvidia/nemotron-3.5-lightning:free"
+        "google/gemini-3.5-flash:free"
         
     ]
 
